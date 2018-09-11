@@ -1,0 +1,109 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 17}
+Charges: {type: byte, value: 0}
+Cloth1Color: {type: byte, value: 119}
+Cloth2Color: {type: byte, value: 89}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 38567}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  str_ref: 12861
+  value:
+    0: |-
+      <cÿ ÿ>Shinobi's Garb</c>
+
+      <c ÿ >The Shinobi were a clan of ninja, famed for their formidible warriors and stealthy assassins. They were masters of the art of ninjutsu. The underlying connotation of shinobi (pronounced nin in Sino-Japanese compounds) is "to do quietly". The nin of ninjutsu is the same as that in ninja, whereas jutsu means skill or art, so ninjutsu means "the skill of going unperceived" or "the art of stealth"</c>
+
+      <c  ÿ>Class: Rogue</c>
+
+      <cÿÿ >Bonuses
+      --------------</c>
+      <cÿ~ >+50% Movement Speed
+      4 Pieces: +6 Dex</c>
+
+      <cÿÿ >Set Bonus (6 Pieces)
+      ---------------------------------</c>
+      <cÿ~ >1d4 Piercing Damage
+      60% Concealment</c>
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 1}
+Leather1Color: {type: byte, value: 85}
+Leather2Color: {type: byte, value: 63}
+LocalizedName:
+  type: cexolocstr
+  str_ref: 12860
+  value:
+    0: "<cúdÈ>Shinobi's Kabuto</c>"
+Metal1Color: {type: byte, value: 63}
+Metal2Color: {type: byte, value: 57}
+ModelPart1: {type: byte, value: 29}
+PaletteID: {type: byte, value: 4}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 1}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 0}
+    Subtype: {type: word, value: 2}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 7}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 23}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 41}
+    Subtype: {type: word, value: 2}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 11}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 255}
+    PropertyName: {type: word, value: 39}
+    Subtype: {type: word, value: 0}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: sd_set_item}
+TemplateResRef: {type: resref, value: sd_fighter_s2_2}
+VarTable:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Name: {type: cexostr, value: sName}
+    Type: {type: dword, value: 3}
+    Value: {type: cexostr, value: Shinobi's Kabuto}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Name: {type: cexostr, value: sSet}
+    Type: {type: dword, value: 3}
+    Value: {type: cexostr, value: Shinobi's Garb}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Name: {type: cexostr, value: iSetNum}
+    Type: {type: dword, value: 1}
+    Value: {type: int, value: 6}

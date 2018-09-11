@@ -1,0 +1,119 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 17}
+Charges: {type: byte, value: 0}
+Cloth1Color: {type: byte, value: 56}
+Cloth2Color: {type: byte, value: 89}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 58831}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  str_ref: 12861
+  value:
+    0: |-
+      <cÿ ÿ>Mystra's Rainment</c>
+
+      <c ÿ >Known as 'The Godess of Magic', Mystra is a common deity for those seeking arcane knowledge and power. She created this rainment for a devout follower who fell defending her name.</c>
+
+      <c  ÿ>Class: Wizard</c>
+
+      <cÿÿ >Bonuses
+      --------------</c>
+      <cÿ~ >2 Pieces: +4 Int
+      4 Pieces: 30% Concealment</c>
+
+
+      <cÿÿ >Set Bonus (6 Pieces)
+      ---------------------------------</c>
+      <cÿ~ >Immune to Critical Hits
+      Haste</c>
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 1}
+Leather1Color: {type: byte, value: 88}
+Leather2Color: {type: byte, value: 63}
+LocalizedName:
+  type: cexolocstr
+  str_ref: 12860
+  value:
+    0: "<cúdÈ>Mystra's Tiara</c>"
+Metal1Color: {type: byte, value: 63}
+Metal2Color: {type: byte, value: 14}
+ModelPart1: {type: byte, value: 13}
+PaletteID: {type: byte, value: 4}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 1}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 0}
+    Subtype: {type: word, value: 2}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 1}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 0}
+    Subtype: {type: word, value: 3}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 7}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 23}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 41}
+    Subtype: {type: word, value: 1}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 25}
+    CostValue: {type: word, value: 8}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 52}
+    Subtype: {type: word, value: 1}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: sd_set_item}
+TemplateResRef: {type: resref, value: sd_wizard_s1_3}
+VarTable:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Name: {type: cexostr, value: sName}
+    Type: {type: dword, value: 3}
+    Value: {type: cexostr, value: Mystra's Tiara}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Name: {type: cexostr, value: sSet}
+    Type: {type: dword, value: 3}
+    Value: {type: cexostr, value: Mystra's Rainment}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Name: {type: cexostr, value: iSetNum}
+    Type: {type: dword, value: 1}
+    Value: {type: int, value: 6}
